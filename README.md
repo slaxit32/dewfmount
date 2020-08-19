@@ -12,7 +12,7 @@ ewfinfo – To display details about E01 image
 How to run:
 ---------------
 
-You should have root privileges to execute this script. If have space in file/folder name, use double quotations.
+You should have root privileges to execute this script. If have spaces in file/folder name, use double quotations.
 
 sudo python3[space][source E01 image file name][space][destination mounting location]
 
