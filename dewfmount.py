@@ -32,7 +32,7 @@ def getting_slot_start_length(source,destination):
 	for line in mmls_output.splitlines()[5:]:
 	    chunks = re.split(' +', line)
 	    #print(chunks)
-	    slot=int(chunks[1])
+	    slot=str(chunks[1]).split(":")[1]
 	    start=int(chunks[2])
 	    length=int(chunks[4])
 
